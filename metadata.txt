@@ -1,0 +1,22 @@
+[general]
+name=Sumo Cable Name Via ACT Count FTTH
+qgisMinimumVersion=3.22
+version=1.9.1
+
+author=Anand Maurya Sumo
+email=Mauryaanand2015@gmail.com
+
+description=Generate cable naming alphabet values from ACT Count field.
+about=Select a layer and field. The plugin sorts records and populates the Alphabet field automatically.
+
+category=Vector
+icon=icon.png
+
+homepage=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-FTTH
+repository=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-FTTH
+tracker=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-FTTH/issues
+
+tags=ftth,fiber,cable,name,automation,sumo
+hasProcessingProvider=no
+experimental=False
+deprecated=False
