@@ -1,13 +1,17 @@
 [general]
 name=Sumo Cable Name Via ACT Count FTTH
+
 qgisMinimumVersion=3.22
-version=1.9.1
+qgisMaximumVersion=4.2
+
+version=2.9.2
 
 author=Anand Maurya Sumo
 email=Mauryaanand2015@gmail.com
 
 description=Generate cable naming alphabet values from ACT Count field.
-about=Select a layer and field. The plugin sorts records and populates the Alphabet field automatically.
+
+about=Select a layer and field. The plugin sorts records and automatically populates the Alphabet field based on ACT Count values.
 
 category=Vector
 icon=icon.png
@@ -16,7 +20,16 @@ homepage=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-F
 repository=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-FTTH
 tracker=https://github.com/anandmauryasumo-star/Sumo-Cable-Name-Via-ACT-Count-FTTH/issues
 
-tags=ftth,fiber,cable,name,automation,sumo
+tags=ftth,fiber,optical-fiber,cable-naming,automation,gis,qgis,sumo
+
 hasProcessingProvider=no
 experimental=False
 deprecated=False
+
+changelog=
+  Fixed plugin validation issues.
+  Improved parsing of ACT Count values.
+  Added safer layer editing management.
+  Improved compatibility with recent QGIS releases.
+  Minor code cleanup and stability improvements.
+ Upgrade Version 
